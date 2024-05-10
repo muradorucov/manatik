@@ -37,14 +37,40 @@ nav {
 
 /* Login Page Start */
 
-#login{
+#login {
     padding-block: 4rem;
 }
-.loginform fieldset{
+
+.loginform fieldset {
     padding: 10px;
 }
-.loginform input{
+
+.loginform input {
     width: 100%;
-    padding: 10px 30px;
+    padding: 10px 20px;
     margin-bottom: 10px;
+}
+
+.toSignup {
+    font-size: 12px;
+    color: #F79F1F;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.birthdate,
+.avatar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.birthdate input,
+.avatar input {
+    width: 60%;
+    margin-bottom: 0;
+
+}
+
+.avatar {
+    padding-block: 10px;
 }
