@@ -1,0 +1,35 @@
+.home-body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #3c4451;
+  padding-top: 40px;
+}
+.box {
+  background-color: #2F323D;
+  width: 100%;
+  padding: 40px;
+  box-shadow: 0 0 10px silver;
+  border-radius: 10px;
+
+}
+.admin-icons {
+  font-size: 50px;
+  color: #fff;
+}
+.admin-text{
+    color: #fff;
+    text-align: center;
+}
+.products-count{
+    color: #fff;
+
+}
+.gap-20{
+    gap: 20px;
+}
+.border-r{
+    border-right: 1px solid #fff;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
