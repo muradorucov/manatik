@@ -10,16 +10,17 @@ import Login from './pages/user/login'
 function App() {
     return (
         <>
-            <Routes>
-                <Route path='/' element={<UserLayout />}>
-                    <Route index element={<Home />} />
-                    <Route path='login' element={<Login />} />
-                    <Route path='contact' element={<Contact />} />
-                    <Route path='cart' element={<Cart />} />
-                    <Route path='favorite' element={<FavPage />} />
-                </Route>
-                <Route path='/admin'></Route>
-            </Routes>
+                <Routes>
+
+                    <Route path='/' element={<UserLayout />}>
+                        <Route index element={<Home />} />
+                        <Route path='login' element={<Login />} />
+                        <Route path='contact' element={<Contact />} />
+                        <Route path='cart' element={<Cart />} />
+                        <Route path='favorite' element={<FavPage />} />
+                    </Route>
+                    <Route path='/admin'></Route>
+                </Routes >
         </>
     )
 }
