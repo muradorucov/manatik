@@ -12,7 +12,7 @@ function Products() {
     return (
         <div className='row'>
             {
-                productsData.map(item => <Product {...item} key={item.id} />)
+                productsData.map(item => <Product product={item} key={item.id} />)
             }
         </div>
     )

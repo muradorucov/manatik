@@ -79,6 +79,19 @@ nav {
     padding-block: 5rem;
 }
 
+.section-heading{
+    padding-block: 3rem;
+    h2{
+        font-size: 45px;
+        font-weight: 600;
+        color: orange;
+    }
+
+    p{
+        font-size: 18px;
+    }
+}
+
 .product {
     padding: 10px;
     border: 1px solid rgb(203, 167, 237);
@@ -87,6 +100,7 @@ nav {
     border-radius: 4px;
     position: relative;
     overflow: hidden;
+    padding-right: 30px;
 }
 
 .controls {
@@ -98,11 +112,12 @@ nav {
     top: 0;
     bottom: 0;
     right: -50px;
-    padding-inline: 7px;
+    padding-inline: 10px;
     /* box-shadow: 0 0 2px 0px black; */
-    font-size: 20px;
+    font-size: 23px;
     transition: .3s;
     color: #F79F1F;
+    background-color: rgb(245, 251, 245);
 
     svg{
         cursor: pointer;

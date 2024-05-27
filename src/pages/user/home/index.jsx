@@ -10,6 +10,12 @@ function Home() {
             </section>
             <section id='products'>
                 <div className="container">
+                    <div className="row justify-content-center">
+                        <div className="section-heading text-center">
+                            <p>Xəyalındakı məhsulu Manatikdən tap! </p>
+                            <h2>Məhsullar</h2>
+                        </div>
+                    </div>
                     <Products />
                 </div>
             </section>

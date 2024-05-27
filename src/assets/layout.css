@@ -31,6 +31,10 @@
     align-items: center;
 }
 
+.text-center{
+    text-align: center;
+}
+
 .gap-3 {
     gap: 15px;
 }
