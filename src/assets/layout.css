@@ -31,14 +31,14 @@
     align-items: center;
 }
 
-.gap-3{
-   gap: 15px;
+.gap-3 {
+    gap: 15px;
 }
 
-/* [class^="col-"] {
+[class^="col-"] {
     padding-inline: 15px;
     box-sizing: border-box;
-} */
+}
 
 /* extra large xl */
 @media screen and (min-width:1200px) {

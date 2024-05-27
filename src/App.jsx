@@ -15,22 +15,22 @@ import Comments from './pages/admin/Comments'
 function App() {
     return (
         <>
-                <Routes>
+            <Routes>
 
-                    <Route path='/' element={<UserLayout />}>
-                        <Route index element={<Home />} />
-                        <Route path='login' element={<Login />} />
-                        <Route path='contact' element={<Contact />} />
-                        <Route path='cart' element={<Cart />} />
-                        <Route path='favorite' element={<FavPage />} />
-                    </Route>
-                    <Route path='/admin' element={<AdminLayout/>}>
-                        <Route path='home' element={<AdminHome/>}/>
-                        <Route path='products' element={<Products/>}/>
-                        <Route path='users' element={<Users/>}/>
-                        <Route path='comments' element={<Comments/>}/>
-                    </Route>
-                </Routes >
+                <Route path='/' element={<UserLayout />}>
+                    <Route index element={<Home />} />
+                    <Route path='login' element={<Login />} />
+                    <Route path='contact' element={<Contact />} />
+                    <Route path='cart' element={<Cart />} />
+                    <Route path='favorite' element={<FavPage />} />
+                </Route>
+                <Route path='/admin' element={<AdminLayout />}>
+                    <Route path='home' element={<AdminHome />} />
+                    <Route path='products' element={<Products />} />
+                    <Route path='users' element={<Users />} />
+                    <Route path='comments' element={<Comments />} />
+                </Route>
+            </Routes >
         </>
     )
 }
